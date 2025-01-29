@@ -5,13 +5,9 @@ cookie:
 credentials:
   usernames:
     admin:
-      email: suengjae.hong@gmail.com
+      email: xxx.xxx@gmail.com
       name: admin
       password: $2b$12$4BSoCNmlPUJ8Al4O00UWkubIZ.nZCciIT711hdS.5leUuLpXMPWvO
-    mike424:
-      email: suengjae.hong@gmail.com
-      name: suengj
-      password: $2b$12$Yo95iZJV3Pm/3uHBuEFu3egZXQbmxrakLgY5lM5hTmCgdKanvWU3q
 preauthorized:
   emails:
-  - suengjae.hong@gmail.com
+  - xxx.xxx@gmail.com
