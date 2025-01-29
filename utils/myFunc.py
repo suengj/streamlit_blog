@@ -10,7 +10,7 @@ def api_key_loader(API_KEY, save_path=""):
         api_key = os.environ.get(API_KEY)
 
     except:
-        api_key = st.secrets['API_KEY']
+        api_key = st.secrets[API_KEY]
 
     return api_key
 
