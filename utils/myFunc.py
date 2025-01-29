@@ -1,3 +1,4 @@
+from dotenv import load_dotenv
 import os, json, time, requests
 from datetime import datetime
 import streamlit as st
@@ -5,8 +6,6 @@ import streamlit as st
 def api_key_loader(API_KEY, save_path=""):
 
     try:
-        from dotenv import load_dotenv
-
         load_dotenv(save_path)
         api_key = os.environ.get(API_KEY)
 
