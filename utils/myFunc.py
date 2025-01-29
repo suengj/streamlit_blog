@@ -1,13 +1,17 @@
-from dotenv import load_dotenv
 import os, json, time, requests
 from datetime import datetime
 import streamlit as st
 
-
 def api_key_loader(API_KEY, save_path=""):
 
-    load_dotenv(save_path)
-    api_key = os.environ.get(API_KEY)
+    try:
+        from dotenv import load_dotenv
+
+        load_dotenv(save_path)
+        api_key = os.environ.get(API_KEY)
+
+    except:
+        api_key = st.secrets['OPENAI_API_KEY']
 
     return api_key
 
