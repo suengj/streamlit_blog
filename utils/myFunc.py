@@ -1,4 +1,4 @@
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import os, json, time, requests
 from datetime import datetime
 import streamlit as st
