@@ -1,6 +1,5 @@
 from utils import myFunc as my
 from utils import llm_dict
-from dotenv import load_dotenv
 
 import os, json, time, requests
 from datetime import datetime
