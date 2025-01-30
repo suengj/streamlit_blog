@@ -219,8 +219,7 @@ def main():
                                                           "content": prompt})
 
                 try:
-                    tavilyAPI = my.api_key_loader(llm_dict.LLM_DICT['Tavily']['API'],
-                                                  save_path=SAVE_PATH)
+                    tavilyAPI = my.api_key_loader(llm_dict.LLM_DICT['Tavily']['API'])
                     
                     tavilyClient = TavilyClient(api_key = tavilyAPI)
                     
