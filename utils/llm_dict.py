@@ -30,8 +30,10 @@ LLM_DICT = {
 
     'Perplexity':{
         'API': 'PERPLEXITY_API_KEY',
-        'MODEL': ['sonar-pro',
-                 'sonar'],
+        'MODEL': ['sonar-reasoning-pro',
+                  'sonar-reasoning',
+                  'sonar-pro',
+                  'sonar'],
         'ETC': []
     },
 
